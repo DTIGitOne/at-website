@@ -21,6 +21,23 @@
     font-family: "Open Sans", sans-serif;
 }
 
+.drop-cap {
+    display: flex;
+    align-items: flex-start;
+}
+  
+.letter {
+    font-size: 5rem; 
+    line-height: 0.8;
+    float: left;
+    margin-right: 0.4rem;
+    margin-bottom: -0.2rem;
+}
+
+.alignText {
+    text-align: justify;
+}
+
 .divLine {
     width: 50vw;
     margin-top: 1.7rem;

@@ -30,7 +30,10 @@
 #galleryBackground {
     width: 100vw;
     min-height: 100vh;
-    background-color: rgb(229, 229, 229);
+    background: linear-gradient(230deg, rgb(229, 229, 229), rgb(244, 201, 201));
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 @keyframes fadeIn {

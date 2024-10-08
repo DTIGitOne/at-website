@@ -12,11 +12,17 @@
     font-family: "Open Sans", sans-serif;
 }
 
-#menuBox div button {
+.navB {
     font-size: 1.5rem;
     font-weight: 300;
     user-select: none;
-} 
+}
+
+#contactB {
+    font-size: 2rem;
+    font-weight: 400;
+    user-select: none;
+}
 
 @keyframes fadeIn {
     0% {opacity: 0;}

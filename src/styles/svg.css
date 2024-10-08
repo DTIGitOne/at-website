@@ -14,6 +14,26 @@
     stroke-width: 6px;
 }
 
+#UpArrow {
+  width: 60px;
+  height: 60px;
+}
+
+.iconSize {
+  width: 6rem;
+  height: 5rem;
+}
+
+#cobiss .cls-1 {
+  fill: #b91c1c;
+  stroke-width: 0px;
+}
+
+#knjiga .cls-1 {
+  fill: #b91c1c;
+  stroke-width: 0px;
+}
+
 @keyframes drawSVG{
     0% {
       stroke-dashoffset: 700;
