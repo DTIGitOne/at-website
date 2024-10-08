@@ -1,0 +1,24 @@
+#signiture {
+    height: 85%;
+    width: 85%;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 700;
+    animation: drawSVG  2s ease-in-out;
+    animation-fill-mode: forwards;
+}
+
+#signiture .cls-1 {
+    fill: none;
+    stroke: #d8d8d8;
+    stroke-miterlimit: 10;
+    stroke-width: 6px;
+}
+
+@keyframes drawSVG{
+    0% {
+      stroke-dashoffset: 700;
+    }
+    100% {
+      stroke-dashoffset: 0;
+    }
+  }

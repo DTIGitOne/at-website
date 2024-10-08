@@ -1,0 +1,29 @@
+#signBox {
+    width: 70vw;
+    height: 100svh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#bioDetails {
+    min-height: 100vh;
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 1.5rem;
+    font-family: "Poppins", sans-serif;
+    color: #ffffff;
+}
+
+#bioText {
+    font-family: "Open Sans", sans-serif;
+}
+
+.divLine {
+    width: 50vw;
+    margin-top: 1.7rem;
+    height: 3px;
+    background: linear-gradient(180deg ,rgba(255, 255, 255, 0.01),rgba(255, 255, 255, 1),rgba(255, 255, 255, 0.01));
+}

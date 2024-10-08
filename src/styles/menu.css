@@ -1,0 +1,24 @@
+#menuBox {
+    height: 5vh;
+    width: 70vw;
+    animation-delay: 1s;
+    opacity: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem;
+    margin-top: 0.6rem;
+    animation: fadeIn 1.5s ease-in-out forwards;
+    font-family: "Open Sans", sans-serif;
+}
+
+#menuBox div button {
+    font-size: 1.5rem;
+    font-weight: 300;
+    user-select: none;
+} 
+
+@keyframes fadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}

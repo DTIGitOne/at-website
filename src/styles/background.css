@@ -1,0 +1,39 @@
+#homeBackground {
+    height: auto;
+    position: relative;
+    width: 100%;
+    background-image: url('/images/bg1.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 10% center;
+    animation-delay: 0.5s;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
+#homeLayer {
+    height: auto;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.73);
+    animation-delay: 0.5s;
+    animation: fadeIn 1.5s ease-in-out forwards;
+}
+
+#eleBox {
+    width: 100vw;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#galleryBackground {
+    width: 100vw;
+    min-height: 100vh;
+    background-color: rgb(229, 229, 229);
+}
+
+@keyframes fadeIn {
+    0% {opacity: 0.3;}
+    100% {opacity: 1;}
+}
