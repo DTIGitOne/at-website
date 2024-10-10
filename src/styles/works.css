@@ -1,0 +1,103 @@
+.eleBox {
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#box1 {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+}
+
+#papers1Box {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    gap: 2.5rem;
+    align-items: flex-end;
+}
+
+.headingClass {
+   font-size: 12.5rem;
+   color: white;
+   letter-spacing: 3px;
+   font-weight: 300;
+   line-height: 1;
+}
+
+.headingClass2 {
+    font-size: 8.5rem;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 300;
+    line-height: 1;
+    text-align: end;
+}
+
+.headingClass3 {
+    font-size: 8.5rem;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 300;
+    line-height: 1;
+}
+
+.headingClass4 {
+    font-size: 4.7rem;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 300;
+    line-height: 1;
+    text-align: end;
+}
+
+.headingClass5 {
+    font-size: 8rem;
+    color: white;
+    letter-spacing: 3px;
+    font-weight: 300;
+    line-height: 1;
+    text-align: end;
+}
+
+#papers {
+    width: 70%;
+    color: white;
+    padding: 0.5rem;
+    padding-right: 1.5rem;
+    font-size: 1.05rem;
+    font-weight: 300;
+    text-align: end;
+}
+
+#inner1 {
+    width: 70%;
+    color: white;
+    padding: 0.5rem;
+    padding-left: 1.5rem;
+    font-size: 1.05rem;
+    font-weight: 300;
+}
+
+.linkSpan {
+    font-size: 1.2rem;
+    margin-top: 0.2rem;
+    font-weight: 700;
+}
+
+.divLine2 {
+    width: 50vw;
+    height: 8px;
+    margin-top: 0.4rem;
+    background: linear-gradient(180deg ,rgba(255, 255, 255, 0.01),#b91c1c,rgba(255, 255, 255, 0.01));
+}
+
+.textLine {
+    height: 40px;
+    width: 3px;
+    background-color: #b91c1c;
+}

@@ -30,4 +30,13 @@ export interface Photo {
     title?: string;
     height: number;
     width: number;
-  }
+}
+
+export interface workComp {
+    innerText: string, 
+    firstLetter: string, 
+    urlLnk?: string,
+    urlText?: string, 
+    spanDetails?: string,
+    right?: boolean
+}

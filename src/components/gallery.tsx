@@ -42,7 +42,8 @@ function renderNextImage(
           fill
           style={{
             boxShadow: "5 12px 14px rgba(0, 0, 0, 0.1)",
-            borderRadius: "5px"
+            borderRadius: "3px",
+            border: "2px solid #ffffff"
           }}
           src={photo}
           alt={alt}

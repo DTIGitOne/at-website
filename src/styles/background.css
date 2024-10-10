@@ -10,6 +10,18 @@
     animation: fadeIn 1s ease-in-out forwards;
 }
 
+#worksBackground {
+    height: auto;
+    position: relative;
+    width: 100%;
+    background-image: url('/images/image6.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 65% center;
+    animation-delay: 0.5s;
+    animation: fadeIn 1s ease-in-out forwards;
+}
+
 #homeLayer {
     height: auto;
     width: 100%;
@@ -17,6 +29,18 @@
     animation-delay: 0.5s;
     animation: fadeIn 1.5s ease-in-out forwards;
 }
+
+#worksLayer {
+    height: auto;
+    width: 100%;
+    background: rgba(0, 0, 0, 0.73);
+    animation-delay: 0.5s;
+    animation: fadeIn 1.5s ease-in-out forwards;
+    display: flex;
+    flex-direction: column;
+    gap: 9rem;
+}
+
 
 #eleBox {
     width: 100vw;
