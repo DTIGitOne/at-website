@@ -39,7 +39,7 @@
 }
 
 .headingClass3 {
-    font-size: 8.5rem;
+    font-size: 6rem;
     color: white;
     letter-spacing: 3px;
     font-weight: 300;
@@ -47,7 +47,7 @@
 }
 
 .headingClass4 {
-    font-size: 4.7rem;
+    font-size: 5.5rem;
     color: white;
     letter-spacing: 3px;
     font-weight: 300;
@@ -100,4 +100,47 @@
     height: 40px;
     width: 3px;
     background-color: #b91c1c;
+}
+
+#innerTextLetter {
+    font-size: 1.2rem;
+}
+
+@media only screen and (max-width: 480px) {
+    .headingClass {
+        font-size: 5.5rem;
+    }
+    .headingClass2 {
+        font-size: 3rem;
+    }
+    .headingClass3 {
+        font-size: 3rem;
+    }
+    .headingClass4 {
+        font-size: 3rem;
+    }
+    .headingClass5 {
+        font-size: 3rem;
+    }
+    #box1 {
+        width: 90%;
+    }
+    #inner1 {
+        width: 95%;
+        padding-left: 0.4rem;
+    }
+    #papers {
+        width: 95%;
+        padding-right: 0.4rem;
+    }
+    .divLine2 {
+        width: 80vw;
+        margin-top: 0.6rem;
+    }
+    .linkSpan {
+        font-size: 1rem;
+    }
+    #innerText {
+        font-size: 0.9rem;
+    }
 }

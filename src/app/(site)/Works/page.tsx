@@ -82,10 +82,8 @@ const Works = () => {
                         <div id='papers'>
                             <ul className=' flex flex-col gap-9'>
                             <WorkComponent
-                                 spanDetails='ISNN 2313-2272 (Print), ' 
+                                 spanDetails='ISNN 2313-2272 (Print)' 
                                  right={true} 
-                                 urlText='ISSN 2408-8897' 
-                                 urlLnk='https://plus.cobiss.net/cobiss/bh/bs/bib/nubbih/54724102' 
                                  firstLetter='M' 
                                  innerText='ilošević Šošo,B., Taljanović,A.,(2023). Social-cultural features of the suicidal behaviour
                                             in Bosnia and Herzegovina, Peoples Friendship University of Russia ( RUDN University)
@@ -106,10 +104,8 @@ const Works = () => {
                                             Društvena i tehnička istraživanja, CEPS, Kiseljak, br.2/2022., str.47-63.'
                             />
                             <WorkComponent
-                                 spanDetails='UDK: 37, ISSN:1857-923X(Printed), ' 
+                                 spanDetails='UDK: 37, ISSN:1857-923X(Printed)' 
                                  right={true} 
-                                 urlText='2545-4439' 
-                                 urlLnk='https://plus.cobiss.net/cobiss/bh/bs/bib/nubbih/54724102' 
                                  firstLetter='T' 
                                  innerText='aljanović,A. Smailhodžić,A.(2022). Savremena žena i politička karijera, International
                                             Journal, KNOWLEDGE, Institute of Knowledge management, Skoplje, Makedonia,Vol.
@@ -123,20 +119,16 @@ const Works = () => {
                                             sigurnost, Sarajevo, godina 2.,broj 2/2022.str. 73-83.'
                             /> 
                             <WorkComponent
-                                 spanDetails='UDK: 37, ISSN:1857-923X(Printed), ' 
+                                 spanDetails='UDK: 37, ISSN:1857-923X(Printed)' 
                                  right={true} 
-                                 urlText='2545-4439' 
-                                 urlLnk='https://plus.cobiss.net/cobiss/bh/bs/bib/nubbih/54724102' 
                                  firstLetter='S' 
                                  innerText='mailhodžić.,A.,Taljanović,A.(2022). Razvoj terorizma u Bosni i Hercegovini,
                                             International Journal, KNOWLEDGE, Institute of Knowledge management, Skoplje,
                                             Makedonia,Vol. 53.No.1. str. 195-198.'
                             />
                             <WorkComponent
-                                 spanDetails='UDK: 37, ISSN:1857-923X(Printed), ' 
+                                 spanDetails='UDK: 37, ISSN:1857-923X(Printed)' 
                                  right={true} 
-                                 urlText='2545-4439' 
-                                 urlLnk='https://plus.cobiss.net/cobiss/bh/bs/bib/nubbih/54724102' 
                                  firstLetter='T' 
                                  innerText='aljanović, A.,Smailhodžić,A.(2022). Socio-ekonomski status savremene porodice kao
                                             indikator društveno (ne)prihvatljivog ponašanja maloljetnika u Bosni i Hercegovini, 

@@ -18,6 +18,8 @@
 }
 
 #bioText {
+    font-size: 8rem;
+    line-height: 1;
     font-family: "Open Sans", sans-serif;
 }
 
@@ -43,4 +45,50 @@
     margin-top: 1.7rem;
     height: 3px;
     background: linear-gradient(180deg ,rgba(255, 255, 255, 0.01),rgba(255, 255, 255, 1),rgba(255, 255, 255, 0.01));
+}
+
+#secondHeading {
+    line-height: 1;
+    font-size: 7rem;
+}
+
+.textBoxes {
+    width: 33%;
+    height: auto;
+}
+
+#linksBox {
+    gap: 3rem;
+}
+
+@media only screen and (max-width: 480px) {
+    #bioText {
+        font-size: 3.8rem;
+    }
+    .divLine {
+        width: 70vw;
+    }
+    #secondHeading {
+        font-size: 3.5rem;
+    }
+    #bioDetails {
+        width: 100vw;
+        padding: 2rem;
+    }
+    .letter {
+        font-size: 3rem;
+    }
+    .alignText {
+        font-size: 13px;
+    }
+    #textBoxBox {
+        flex-direction: column;
+    }
+    .textBoxes {
+        width: 100%;
+        height: auto;
+    }
+    #linksBox {
+        gap: 1.5rem;
+    }
 }

@@ -16,8 +16,8 @@ const WorkComponent = ({innerText, firstLetter, urlLnk, urlText, spanDetails, ri
         )}
         <Reveal del={0.35} dur={0.7} position={"relative"} height='auto' var1={{opacity: 0, x: right ? 110 : -110}} var2={{opacity: 1,x: 0}} width='fit-content'>
              <div>
-                <div>
-                    <span style={{fontSize: "1.2rem", fontWeight: 600}}>{firstLetter}</span>
+                <div id="innerText">
+                    <span id="innerTextLetter" style={{fontWeight: 600}}>{firstLetter}</span>
                     {innerText}
                 </div>
                 <div className='  flex items-center gap-2' style={{justifyContent: right ? "end" : "start"}}>

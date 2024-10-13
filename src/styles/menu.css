@@ -28,3 +28,16 @@
     0% {opacity: 0;}
     100% {opacity: 1;}
 }
+
+@media only screen and (max-width: 480px) {
+    #menuBox {
+        width: 100%;
+        padding: 1rem;
+    }
+    .navB {
+        font-size: 1.3rem;
+    }
+    #contactB {
+        font-size: 1.6rem;
+    }
+}

@@ -54,7 +54,7 @@
 #galleryBackground {
     width: 100vw;
     min-height: 100vh;
-    background: linear-gradient(230deg, rgb(229, 229, 229), rgb(244, 201, 201));
+    background: linear-gradient(230deg, rgb(244, 243, 243), rgb(255, 247, 247));
     display: flex;
     justify-content: center;
     align-items: center;
@@ -63,4 +63,8 @@
 @keyframes fadeIn {
     0% {opacity: 0.3;}
     100% {opacity: 1;}
+}
+
+@media only screen and (max-width: 480px) {
+    
 }

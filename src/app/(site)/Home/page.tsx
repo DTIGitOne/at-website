@@ -24,13 +24,13 @@ const Home = () => {
                     <div id='bioDetails'>
                     <Reveal del={0.35} dur={0.7} position={"relative"} height='auto' var1={{opacity: 0, y: -75}} var2={{opacity: 1,y: 0}} width='fit-content'>
                          <div className=' flex flex-col m-10 mb-40 justify-center items-center'>
-                              <h1 id='bioText' className='font-light text-9xl'>Biography</h1>
+                              <h1 id='bioText' className='font-light'>Biography</h1>
                               <RevealAnimation dur={1} del={0.1} position={"relative"} height='auto' var1={{opacity: 0, x: -1500}} var2={{opacity: 1,x: 0}} var3={{left: 0}} var4={{left: "100%"}} width='fit-content'>
                                   <div className='divLine'></div>
                               </RevealAnimation>
                          </div>
                     </Reveal>
-                       <h2 className=' w-full gap-5' style={{fontSize: "7rem",lineHeight: 1}}>
+                       <h2 className=' w-full gap-5' id='secondHeading'>
                          <Reveal del={0.35} dur={0.7} position={"relative"} height='auto' var1={{opacity: 0, x: -75}} var2={{opacity: 1,x: 0}} width='fit-content'>
                             <div className=' select-none font-light text-red-700'>Dr.sc</div>
                          </Reveal>
@@ -38,8 +38,8 @@ const Home = () => {
                             <div>Amila Taljanović</div>  
                          </RevealAnimation>
                        </h2>
-                        <div className='h-auto mt-20 flex' style={{width: "100%",fontSize: "0.95rem"}}>
-                            <div className=' w-1/3 h-auto drop-cap'>
+                        <div className='h-auto mt-20 flex' id='textBoxBox' style={{width: "100%",fontSize: "0.95rem"}}>
+                            <div className=' textBoxes drop-cap'>
                             <div className=' p-2 alignText' style={{lineHeight: 1.5,clear: "both"}}>
                             <Reveal del={0.15} dur={0.5} position={"relative"} height='auto' var1={{opacity: 0, x: -75}} var2={{opacity: 1,x: 0}} width='100%'>
                                       <p className=' p-2 alignText'>
@@ -79,7 +79,7 @@ const Home = () => {
                             </Reveal>
                             </div>
                             </div>
-                            <div className=' w-1/3 h-auto'>
+                            <div className=' textBoxes'>
                              <div className=' p-2 alignText'>
                               <Reveal del={0.35} dur={0.5} position={"relative"} height='auto' var1={{opacity: 0, x: -75}} var2={{opacity: 1,x: 0}} width='100%'>
                                       <p className=' p-2 alignText'>
@@ -114,7 +114,7 @@ const Home = () => {
                                </Reveal>
                              </div>
                             </div>
-                            <div className=' w-1/3 h-auto'>
+                            <div className=' textBoxes'>
                             <div>
                               <Reveal del={0.55} dur={0.5} position={"relative"} height='auto' var1={{opacity: 0, x: -75}} var2={{opacity: 1,x: 0}} width='100%'>
                                       <p className=' p-2 alignText'>
@@ -156,7 +156,7 @@ const Home = () => {
                               </RevealAnimation>
                          </div>
                     </Reveal>
-                    <div className=' flex gap-12'>
+                    <div id='linksBox' className=' flex'>
                     <Reveal del={0.15} dur={0.7} position={"relative"} height='auto' var1={{opacity: 0, y: 110}} var2={{opacity: 1,y: 0}} width='fit-content'>
                         <button onClick={() => openURLInNewWindow("https://www.linkedin.com/in/amila-taljanovic-52448289/?originalSubdomain=ba")}>
                             <LinkedInIcon />

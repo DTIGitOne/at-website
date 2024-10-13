@@ -22,7 +22,8 @@ const ScrollFadeComponent = () => {
       style={{
         position: 'fixed',
         bottom: "4%",
-        left: "47%",
+        left: "50%",
+        transform: 'translate(-50%, -50%)',
         opacity,
         color: "#ffffff",
         fontFamily: "Open Sans, sans-serif",
