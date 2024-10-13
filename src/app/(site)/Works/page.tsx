@@ -1,10 +1,7 @@
 'use client'
-import LinkIcon from '@/svg/link';
 import '../../../styles/background.css';
 import '../../../styles/works.css';
-import { openURLInNewWindow } from '@/constants/constants';
 import Reveal from '@/components/animation/reveal';
-import RevealAnimation from '@/components/animation/revealAnimation';
 import WorkComponent from '@/components/workComponent';
 import ScrollToTopButton from '@/components/goToTop';
 

@@ -24,7 +24,7 @@ const TopMenu = () => {
     }
 
     useEffect(() => {
-        if (pathname === "/Works" || pathname === "/Home") {
+        if (pathname === "/Works" || pathname === "/") {
             setFontColor("#ffffff");
         } else {
             setFontColor("#000000");
@@ -38,7 +38,7 @@ const TopMenu = () => {
                     <button className=' cursor-pointer text-red-700' onClick={() => window.location.href = `mailto:${gmail}?subject=${encodeURIComponent(subject)}&body=${encodeURIComponent(body)}`} id='contactB'>Contact</button>
                 </div>
                 <div style={{color: fontColor}} className=' flex gap-4'>
-                    <button className='navB' onClick={() => handleNavigation("Home")}>Home</button>
+                    <button className='navB' onClick={() => handleNavigation("")}>Home</button>
                     <button className='navB' onClick={() => handleNavigation("Works")}>Works</button>
                     <button className='navB' onClick={() => handleNavigation("Gallery")}>Gallery</button>
                 </div>
