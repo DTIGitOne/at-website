@@ -2,7 +2,7 @@
 https://amilataljanovic.vercel.app/
 
 ## ABOUT
-This is just a standard portoflio website i have built using Next.JS. No advanced logic or design, just a simple css website with Framer Motion for the animaions.
+This is just a standard portfolio website i have built using Next.JS. No advanced logic or design, just a simple css website with Framer Motion for the animaions.
 
 ## TECHNOLOGIES & TOOLS & LIBRARIES
 
